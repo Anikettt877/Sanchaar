@@ -1,0 +1,30 @@
+{
+  "random_forest": {
+    "model_name": "Random Forest Regressor",
+    "mae": 360.48,
+    "rmse": 611.39,
+    "r2": 0.9179,
+    "train_time_sec": 2.48,
+    "n_samples_train": 40320,
+    "n_samples_test": 10080
+  },
+  "xgboost": {
+    "model_name": "XGBoost Regressor",
+    "mae": 350.35,
+    "rmse": 592.96,
+    "r2": 0.9227,
+    "train_time_sec": 0.59,
+    "n_samples_train": 40320,
+    "n_samples_test": 10080
+  },
+  "lstm": {
+    "model_name": "LSTM Recurrent Neural Network",
+    "mae": 381.13,
+    "rmse": 597.93,
+    "r2": 0.9214,
+    "train_time_sec": 44.14,
+    "sequence_length": 12,
+    "n_samples_train": 40308,
+    "n_samples_test": 10068
+  }
+}

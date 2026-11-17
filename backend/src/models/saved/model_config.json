@@ -1,0 +1,26 @@
+{
+  "feature_columns": [
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "latitude",
+    "longitude",
+    "ridership_lag_1h",
+    "ridership_lag_24h",
+    "ridership_lag_168h",
+    "ridership_rolling_mean_24h",
+    "ridership_rolling_std_24h",
+    "borough_Brooklyn",
+    "borough_Manhattan",
+    "borough_Queens",
+    "peak_period_evening_peak",
+    "peak_period_midday",
+    "peak_period_morning_peak",
+    "peak_period_night"
+  ],
+  "target": "ridership",
+  "seq_len": 12,
+  "num_features": 18,
+  "timestamp_saved": "2026-11-17 10:59:06"
+}
