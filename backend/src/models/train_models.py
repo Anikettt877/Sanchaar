@@ -1,5 +1,5 @@
 """
-Model Training Pipeline for TRANSIT AI.
+Model Training Pipeline for Sanchaar.
 
 Trains, evaluates, and persists three ML/DL models on real MTA subway ridership:
 1. Random Forest Regressor (Sklearn)

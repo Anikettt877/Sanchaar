@@ -1,5 +1,5 @@
 """
-Capacity Planner & Headway Frequency Optimization Module for TRANSIT AI.
+Capacity Planner & Headway Frequency Optimization Module for Sanchaar.
 
 Determines recommended departure frequencies (headways) in minutes, hourly vehicle trips,
 and performs scenario analysis comparing different vehicle sizing options (e.g. 30, 50, 80 passengers).

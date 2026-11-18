@@ -1,3 +1,3 @@
 """
-Machine Learning & Deep Learning Models for TRANSIT AI.
+Machine Learning & Deep Learning Models for Sanchaar.
 """

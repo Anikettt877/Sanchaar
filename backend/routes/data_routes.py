@@ -1,5 +1,5 @@
 """
-Dataset Management & Inspection Routes for TRANSIT AI.
+Dataset Management & Inspection Routes for Sanchaar.
 """
 
 import logging

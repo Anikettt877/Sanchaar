@@ -1,5 +1,5 @@
 """
-Main Flask Application for TRANSIT AI Backend.
+Main Flask Application for Sanchaar Backend.
 Intelligent Public Transportation Demand Forecasting & Optimization System.
 """
 
@@ -24,7 +24,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
 )
-logger = logging.getLogger("TransitAI_App")
+logger = logging.getLogger("Sanchaar_App")
 
 
 def create_app(config_class=Config):
@@ -49,7 +49,7 @@ def create_app(config_class=Config):
     def health_check():
         return jsonify({
             "status": "online",
-            "service": "TRANSIT AI Backend REST API",
+            "service": "Sanchaar Backend REST API",
             "version": "1.0.0",
             "models_loaded": True
         }), 200
@@ -68,5 +68,5 @@ def create_app(config_class=Config):
 
 if __name__ == "__main__":
     app = create_app()
-    logger.info("Starting TRANSIT AI Flask Backend server on http://127.0.0.1:5000 ...")
+    logger.info("Starting Sanchaar Flask Backend server on http://127.0.0.1:5000 ...")
     app.run(host="127.0.0.1", port=5000, debug=False)

@@ -1,5 +1,5 @@
 /**
- * Central API Client Service for TRANSIT AI Backend.
+ * Central API Client Service for Sanchaar Backend.
  */
 
 import axios from 'axios';

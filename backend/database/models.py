@@ -1,5 +1,5 @@
 """
-Database Models for TRANSIT AI.
+Database Models for Sanchaar.
 
 Defines relational entities for stations, historical ridership, prediction audit trails,
 model performance metrics, capacity optimization logs, and dataset metadata.

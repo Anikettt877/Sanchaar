@@ -1,6 +1,6 @@
 # c:\Users\anike\OneDrive\Desktop\transit AI\backend\src\data\download_data.py
 """
-MTA Hourly Ridership Data Downloader for TRANSIT AI.
+MTA Hourly Ridership Data Downloader for Sanchaar.
 
 Downloads subway ridership data from the NY Open Data Socrata API:
 Endpoint: https://data.ny.gov/resource/wujg-7c2s.json
@@ -202,7 +202,7 @@ def download_mta_data(
 
     headers = {
         "Accept": "application/json",
-        "User-Agent": "TransitAI-DataPipeline/1.0",
+        "User-Agent": "Sanchaar-DataPipeline/1.0",
     }
     token = app_token or os.getenv("MTA_APP_TOKEN")
     if token:

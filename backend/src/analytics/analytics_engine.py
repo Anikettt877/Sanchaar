@@ -1,5 +1,5 @@
 """
-Analytics Engine Module for TRANSIT AI.
+Analytics Engine Module for Sanchaar.
 
 Provides comprehensive descriptive and diagnostic analytics on MTA subway ridership,
 including summary statistics, temporal distributions, station rankings, borough analytics,

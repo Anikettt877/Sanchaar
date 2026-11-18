@@ -61,7 +61,7 @@ export default function MainLayout() {
             </div>
             <div>
               <span className="font-black text-lg tracking-tight bg-gradient-to-r from-brand-600 to-indigo-600 dark:from-brand-400 dark:to-indigo-300 bg-clip-text text-transparent">
-                TRANSIT AI
+                Sanchaar
               </span>
               <p className="text-[10px] uppercase font-bold tracking-wider text-slate-400 dark:text-slate-500">
                 Demand Optimization
@@ -129,7 +129,7 @@ export default function MainLayout() {
             </button>
             <div className="hidden sm:flex items-center space-x-2 text-xs text-slate-400">
               <Layers className="w-3.5 h-3.5" />
-              <span>TRANSIT AI Platform</span>
+              <span>Sanchaar Platform</span>
               <span>/</span>
               <span className="text-slate-700 dark:text-slate-200 font-semibold capitalize">
                 {location.pathname.replace('/', '').replace('-', ' ') || 'Overview'}

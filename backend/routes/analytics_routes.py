@@ -1,5 +1,5 @@
 """
-Analytics API Routes for TRANSIT AI.
+Analytics API Routes for Sanchaar.
 """
 
 import logging

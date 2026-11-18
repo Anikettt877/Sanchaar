@@ -1,5 +1,5 @@
 /**
- * Formatting and color utility functions for TRANSIT AI.
+ * Formatting and color utility functions for Sanchaar.
  */
 
 export function formatNumber(num, decimals = 0) {

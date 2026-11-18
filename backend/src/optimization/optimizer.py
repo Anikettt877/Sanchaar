@@ -1,5 +1,5 @@
 """
-Transport Capacity Optimization Engine for TRANSIT AI.
+Transport Capacity Optimization Engine for Sanchaar.
 
 Calculates required transport capacity, analyzes fleet utilization, identifies bottlenecks,
 and generates actionable resource allocation recommendations based on predicted demand.

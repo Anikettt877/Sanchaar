@@ -1,5 +1,5 @@
 """
-Inference & Prediction Service Module for TRANSIT AI.
+Inference & Prediction Service Module for Sanchaar.
 
 Loads trained Machine Learning (Random Forest, XGBoost) and Deep Learning (LSTM) models,
 constructs runtime feature vectors for any target station, date, and hour,

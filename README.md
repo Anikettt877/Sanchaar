@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>🚇 TRANSIT AI</strong><br>
+  <strong>🚇 SANCHAAR</strong><br>
   <em>Intelligent Public Transportation Demand Forecasting &amp; Optimization System</em>
 </p>
 
@@ -7,7 +7,7 @@
 
 ## Overview
 
-**TRANSIT AI** is an end-to-end intelligent transit analytics platform that ingests real **MTA NYC Subway** ridership data, trains three ML/DL models (Random Forest, XGBoost, LSTM), and serves an interactive React dashboard with demand forecasting, peak-hour analytics, station rankings, and transport capacity optimization recommendations.
+**Sanchaar** is an end-to-end intelligent transit analytics platform that ingests real **MTA NYC Subway** ridership data, trains three ML/DL models (Random Forest, XGBoost, LSTM), and serves an interactive React dashboard with demand forecasting, peak-hour analytics, station rankings, and transport capacity optimization recommendations.
 
 Built as an **MCA AIML capstone project**, it demonstrates a production-grade architecture with a React + Tailwind frontend, Flask REST API backend, and a full machine-learning pipeline — no dummy data or fabricated metrics.
 
@@ -24,7 +24,7 @@ Public transportation systems often experience:
 - ❓ **No future visibility** — authorities react instead of plan
 - 💸 **Inefficient resource allocation** wasting fuel, drivers, and vehicles
 
-**TRANSIT AI** solves this by using Machine Learning to **predict future demand** and **recommend optimal transport capacity** — putting the right number of vehicles at the right stations at the right time.
+**Sanchaar** solves this by using Machine Learning to **predict future demand** and **recommend optimal transport capacity** — putting the right number of vehicles at the right stations at the right time.
 
 ---
 
@@ -57,7 +57,7 @@ Public transportation systems often experience:
 ## Project Structure
 
 ```
-transit-ai/
+sanchaar/
 ├── backend/
 │   ├── app.py                     # Flask application factory
 │   ├── config.py                  # Configuration (DB URL, paths)
@@ -258,5 +258,5 @@ This project is developed as an academic capstone. All MTA ridership data is pub
 
 <p align="center">
   Built with ❤️ for the MCA AIML Capstone<br>
-  <strong>TRANSIT AI</strong> — Making public transit smarter, one prediction at a time.
+  <strong>Sanchaar</strong> — Making public transit smarter, one prediction at a time.
 </p>

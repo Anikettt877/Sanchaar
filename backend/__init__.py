@@ -1,1 +1,1 @@
-# TRANSIT AI Backend Package
+# Sanchaar Backend Package

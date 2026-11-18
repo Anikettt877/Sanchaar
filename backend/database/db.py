@@ -1,5 +1,5 @@
 """
-Database Management for TRANSIT AI.
+Database Management for Sanchaar.
 Uses Python's built-in sqlite3 database engine with connection pooling and thread safety.
 Provides clean persistence for prediction history, audit logs, and metadata.
 """

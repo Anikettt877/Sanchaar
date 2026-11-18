@@ -1,5 +1,5 @@
 """
-Advanced Forecasting Engine for TRANSIT AI.
+Advanced Forecasting Engine for Sanchaar.
 
 Provides multi-horizon temporal demand predictions:
 - Hourly Forecasting (6, 12, 24, 48 hours)

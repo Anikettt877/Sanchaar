@@ -1,6 +1,6 @@
 # c:\Users\anike\OneDrive\Desktop\transit AI\backend\src\features\create_sample_data.py
 """
-Realistic Synthetic Fallback Dataset Generator for TRANSIT AI.
+Realistic Synthetic Fallback Dataset Generator for Sanchaar.
 
 IMPORTANT:
 This script is a FALLBACK utility designed for offline environments, API downtime,

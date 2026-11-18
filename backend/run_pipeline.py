@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-TRANSIT AI — Master Pipeline Runner
+Sanchaar — Master Pipeline Runner
 
 Usage (run from the backend/ directory):
     python run_pipeline.py                  # Run full pipeline
@@ -65,7 +65,7 @@ def run_serve():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="TRANSIT AI - Pipeline Runner")
+    parser = argparse.ArgumentParser(description="Sanchaar - Pipeline Runner")
     parser.add_argument("--download", action="store_true", help="Download raw data")
     parser.add_argument("--preprocess", action="store_true", help="Preprocess raw data")
     parser.add_argument("--features", action="store_true", help="Generate features")

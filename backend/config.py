@@ -1,5 +1,5 @@
 """
-Configuration Settings for TRANSIT AI Backend.
+Configuration Settings for Sanchaar Backend.
 Supports development SQLite and production PostgreSQL databases.
 """
 
@@ -9,7 +9,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 
 class Config:
-    SECRET_KEY = os.environ.get("SECRET_KEY", "transit-ai-secret-key-2024-secure")
+    SECRET_KEY = os.environ.get("SECRET_KEY", "sanchaar-secret-key-2024-secure")
     
     # SQLite by default with zero configuration, easily overridden via DATABASE_URL
     SQLALCHEMY_DATABASE_URI = os.environ.get(

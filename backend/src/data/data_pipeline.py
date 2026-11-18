@@ -1,6 +1,6 @@
 # c:\Users\anike\OneDrive\Desktop\transit AI\backend\src\data\data_pipeline.py
 """
-Master Data Pipeline Orchestrator for TRANSIT AI.
+Master Data Pipeline Orchestrator for Sanchaar.
 
 Coordinates the end-to-end data engineering lifecycle:
   Step 1: Download raw MTA subway ridership from NY Open Data API (download_data.py)
@@ -69,7 +69,7 @@ def run_pipeline(
     station_info_path: Path = DEFAULT_STATION_INFO_CSV_PATH,
 ) -> Dict[str, float]:
     """
-    Executes the full Transit AI Data Pipeline sequentially with timing benchmarks.
+    Executes the full Sanchaar Data Pipeline sequentially with timing benchmarks.
 
     Args:
         target_rows: Number of raw records to fetch from MTA API (~200,000-400,000).
@@ -89,7 +89,7 @@ def run_pipeline(
     timing_report: Dict[str, float] = {}
 
     logger.info("=" * 80)
-    logger.info("TRANSIT AI DATA PIPELINE EXECUTION STARTED")
+    logger.info("SANCHAAR DATA PIPELINE EXECUTION STARTED")
     logger.info(f"Target Raw Rows:     {target_rows:,}")
     logger.info(f"Skip Download:       {skip_download}")
     logger.info(f"Use Sample Fallback: {use_sample}")
@@ -182,7 +182,7 @@ def run_pipeline(
     timing_report["Total Pipeline Duration"] = total_elapsed
 
     logger.info("\n" + "=" * 80)
-    logger.info("TRANSIT AI DATA PIPELINE EXECUTION SUMMARY")
+    logger.info("SANCHAAR DATA PIPELINE EXECUTION SUMMARY")
     logger.info("=" * 80)
     for stage, duration in timing_report.items():
         pct = (duration / total_elapsed) * 100 if total_elapsed > 0 else 0
@@ -215,7 +215,7 @@ def run_pipeline(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Run Transit AI master data engineering pipeline."
+        description="Run Sanchaar master data engineering pipeline."
     )
     parser.add_argument(
         "--target-rows",

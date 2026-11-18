@@ -1,6 +1,6 @@
 # c:\Users\anike\OneDrive\Desktop\transit AI\backend\src\features\feature_engineering.py
 """
-Feature Engineering Module for TRANSIT AI.
+Feature Engineering Module for Sanchaar.
 
 Transforms aggregated hourly subway ridership into machine-learning-ready features:
 1. Temporal Features:
