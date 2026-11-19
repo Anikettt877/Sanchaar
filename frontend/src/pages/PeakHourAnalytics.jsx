@@ -57,7 +57,7 @@ export default function PeakHourAnalytics() {
 
   // Build a lookup: day name → { hour → avg_ridership }
   // Backend returns matrix as a 2D list [dayIndex][hourIndex] and days as an ordered list
-  const heatmapLookup = React.useMemo(() => {
+  const heatmapLookup = (() => {
     const hm = heatmapData;
     if (!hm || !hm.matrix) return {};
     const lookup = {};
@@ -74,7 +74,7 @@ export default function PeakHourAnalytics() {
       });
     });
     return { lookup, maxValue: globalMax || 4000 };
-  }, [heatmapData]);
+  })();
 
   // Helper for heatmap cell color
   const getHeatmapColor = (hour, day) => {
